@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LaniganClan.iml" filepath="$PROJECT_DIR$/.idea/modules/LaniganClan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LaniganClan_main.iml" filepath="$PROJECT_DIR$/.idea/modules/LaniganClan_main.iml" group="LaniganClan" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LaniganClan_test.iml" filepath="$PROJECT_DIR$/.idea/modules/LaniganClan_test.iml" group="LaniganClan" />
+    </modules>
+  </component>
+</project>
