@@ -12,30 +12,31 @@ public class Dad extends Parent implements IReactions {
         decreasePatience(5);
     }
 
-    public void explode() {
+    public String explode() {
+        String response = null;
         switch (getPatience()) {
             case 10:
-                System.out.println("What excellent Children you both are.");
+                response = "What excellent Children you both are.";
                 break;
             case 9:
             case 8:
-                System.out.println("Carry on!");
+                response = "Carry on!";
                 break;
             case 7:
             case 6:
             case 5:
-                System.out.println("Right - just behave yourself.. or else!");
+                response = "Right - just behave yourself.. or else!";
                 break;
             case 4:
             case 3:
-                System.out.println("That's it. No telly for a week!");
+                response = "That's it. No telly for a week!";
                 break;
             case 2:
             case 1:
-                System.out.println("Go to your room!!!");
+                response = "Go to your room!!!";
             case 0:
-                System.out.println("GET UPSTAIRS NOW!");
-        }
+                response = "GET UPSTAIRS NOW!";
+        }return response;
     }
 
 

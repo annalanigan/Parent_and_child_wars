@@ -6,5 +6,4 @@ public class Mum extends Parent{
         super(name, style);
     }
 
-    public void
 }
