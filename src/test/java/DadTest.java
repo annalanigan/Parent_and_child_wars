@@ -30,4 +30,9 @@ public class DadTest {
         assertEquals("GET UPSTAIRS NOW!", dad.explode());
     }
 
+    @Test
+    public void canReferee(){
+        dad.refereeFight();
+        assertEquals(5, dad.getPatience());
+    }
 }

@@ -28,6 +28,10 @@ public class Parent {
         this.patience = patience;
     }
 
+    public void resetPatience(){
+        setPatience(10);
+    }
+
     public void decreasePatience(int value){
         patience -= value;
     }

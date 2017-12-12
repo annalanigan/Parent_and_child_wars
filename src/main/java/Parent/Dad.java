@@ -8,7 +8,7 @@ public class Dad extends Parent implements IReactions {
         super(name, style);
     }
 
-    public void referee(){
+    public void refereeFight(){
         decreasePatience(5);
     }
 
